@@ -1,2 +1,2 @@
 # CLion-C-CPP-Color-Scheme
-This is my ColorScheme for CLion with C/C++
+These are my Color-Schemes for CLion and IntelliJ
