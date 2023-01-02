@@ -1,9 +1,9 @@
-<scheme name="Custom-CLion" version="142" parent_scheme="Darcula">
+<scheme name="ColorScheme" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-08-08T09:26:53</property>
+    <property name="created">2019-07-09T12:06:11</property>
     <property name="ide">CLion</property>
-    <property name="ideVersion">2021.2.2.0.0</property>
-    <property name="modified">2022-08-08T09:26:58</property>
+    <property name="ideVersion">2018.3.4.0.0</property>
+    <property name="modified">2019-07-09T12:06:18</property>
     <property name="originalScheme">ColorScheme</property>
   </metaInfo>
   <colors>
@@ -3798,9 +3798,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="e04a4a" />
-        <option name="EFFECT_COLOR" value="f10000" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="FOREGROUND" value="bca7" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
