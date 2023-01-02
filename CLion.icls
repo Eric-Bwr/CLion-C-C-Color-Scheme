@@ -1,10 +1,10 @@
-<scheme name="ColorScheme" version="142" parent_scheme="Darcula">
+<scheme name="Custom-CLion" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2019-07-09T12:06:11</property>
+    <property name="created">2023-01-02T10:47:56</property>
     <property name="ide">CLion</property>
-    <property name="ideVersion">2018.3.4.0.0</property>
-    <property name="modified">2019-07-09T12:06:18</property>
-    <property name="originalScheme">ColorScheme</property>
+    <property name="ideVersion">2021.1.3.0.0</property>
+    <property name="modified">2023-01-02T10:48:05</property>
+    <property name="originalScheme">Custom-CLion</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="" />
@@ -2765,6 +2765,11 @@
         <option name="FOREGROUND" value="219598" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="66e1f8" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="a6b2c0" />
@@ -2777,12 +2782,12 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="61aeef" />
+        <option name="FOREGROUND" value="a7ec21" />
       </value>
     </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
+        <option name="FOREGROUND" value="1290c3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2814,9 +2819,14 @@
         <option name="FOREGROUND" value="a6b2c0" />
       </value>
     </option>
+    <option name="PY.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="a7ec21" />
+      </value>
+    </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="61aeef" />
+        <option name="FOREGROUND" value="1eb540" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2828,19 +2838,24 @@
     </option>
     <option name="PY.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="cc4057" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="d19a66" />
+        <option name="FOREGROUND" value="66e1f8" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="59626f" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.NESTED_FUNC_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="1eb540" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.NUMBER">
@@ -2855,7 +2870,7 @@
     </option>
     <option name="PY.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="d19a66" />
+        <option name="FOREGROUND" value="79abff" />
       </value>
     </option>
     <option name="PY.PARENTHS">
@@ -2887,12 +2902,12 @@
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="17c6a3" />
       </value>
     </option>
     <option name="PY.STRING.U">
       <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="17c6a3" />
       </value>
     </option>
     <option name="PY.VALID_STRING_ESCAPE">
@@ -3798,7 +3813,9 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bca7" />
+        <option name="FOREGROUND" value="e04a4a" />
+        <option name="EFFECT_COLOR" value="f10000" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
