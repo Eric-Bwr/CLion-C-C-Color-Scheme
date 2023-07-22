@@ -1,0 +1,15 @@
+#Aliases for git
+alias gch=\"git checkout"
+alias gs=\"git status"
+alias gu=\"git pull"
+alias gr=\"git restore"
+alias gpo=\"git push origin HEAD"
+alias gp=\"git push"
+alias gc=\"git commit -m"
+alias gd=\"git diff"
+alias ga=\"git add"
+alias gsub=\"git submodule"
+
+#Unsync terminals (terminator)
+setopt no_share_history
+unsetopt share_history
