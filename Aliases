@@ -13,3 +13,7 @@ alias gsub=\"git submodule"
 #Unsync terminals (terminator)
 setopt no_share_history
 unsetopt share_history
+
+#Various
+#Update git submodules (init and checkout the corresponding branch set in the .gitmodules file of the top level repo)
+echo "alias sub=\"git submodule update --init && git submodule foreach -q --recursive 'branch=\\\"\\\$(git config -f \\\$toplevel/.gitmodules submodule.\\\$name.branch)\\\"; git checkout \\\$branch'\"" >> ~/.bashrc
